@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel & Tourism</title>
+<link rel="stylesheet" href="css/subashini.css">
+</head>
+<body>
+
+<header>
+  <h1>🌍 Explore The World</h1>
+  <p>Your journey starts here...</p>
+</header>
+
+<section class="hero">
+  <h2>Discover Beautiful Places</h2>
+  <p>Adventure awaits—find your next destination</p>
+  <button onclick="bookNow()">Book Now</button>
+</section>
+
+<section class="places">
+  <h2>Popular Destinations</h2>
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?paris" alt="">
+      <h3>Paris, France</h3>
+      <p>The city of lights and love ❤️</p>
+    </div>
+
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?maldives" alt="">
+      <h3>Maldives</h3>
+      <p>Relax in crystal clear beaches 🌴</p>
+    </div>
+
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?japan" alt="">
+      <h3>Tokyo, Japan</h3>
+      <p>Blend of tradition & modern world 🏯</p>
+    </div>
+
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?dubai" alt="">
+      <h3>Dubai, UAE</h3>
+      <p>Luxury, desert safari & skyscrapers 🏙️</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <h2>Book Your Trip</h2>
+  <form id="bookingForm">
+
+    <input type="text" id="name" placeholder="Enter your name" required>
+    <input type="email" id="email" placeholder="Enter email" required>
+    
+    <select id="destination" required>
+      <option value="">Select Destination</option>
+      <option>Paris</option>
+      <option>Maldives</option>
+      <option>Tokyo</option>
+      <option>Dubai</option>
+    </select>
+
+    <input type="date" id="date" required>
+    <button type="submit">Submit</button>
+
+  </form>
+</section>
+
+<footer>
+  <p>🌐 Travel & Tourism Website | Designed by You</p>
+</footer>
+
+<script src="css/javascript/subashini.js"></script>
+</body>
+</html>
